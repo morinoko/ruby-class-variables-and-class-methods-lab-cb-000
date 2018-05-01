@@ -20,6 +20,8 @@ class Song
   
   def self.genres
     @@genres.uniq
+    
+    # Long way:
     # unique_genres = []
     # @@genres.each{ |genre| unique_genres << genre unless unique_genres.include?(genre) }
     # unique_genres
@@ -35,6 +37,8 @@ class Song
   
   def self.artists
     @@artists.uniq
+    
+    # Long way:
     # unique_artists = []
     # @@artists.each{ |artist| unique_artists << artist unless unique_artists.include?(artist) }
     # unique_artists
